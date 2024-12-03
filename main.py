@@ -6,7 +6,7 @@ import hashlib
 import urllib.parse
 import random
 from push import push
-from capture import headers as local_headers, cookies as local_cookies
+from capture import headers as local_headers, cookies as local_cookies, data
 
 # 加密盐及其它默认值
 KEY = "3c5c8717f3daf09iop3423zafeqoi"
